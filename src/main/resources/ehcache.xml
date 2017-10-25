@@ -1,0 +1,11 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ehcache.xsd">
+	
+	<!-- Dica: Precisamos informar ao spring que usaremos o ehcache em XPTOAplication -->
+	
+	<!-- ehCache abaixo sera usado na camada de servico -->
+	<cache name="juizPorCpf" 
+		maxEntriesLocalHeap="200"
+		timeToLiveSeconds="3600">
+	</cache>
+</ehcache>

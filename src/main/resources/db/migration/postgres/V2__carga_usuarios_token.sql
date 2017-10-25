@@ -1,0 +1,2 @@
+INSERT INTO usuario (id, email, perfil, senha) VALUES (1, 'usuario@email.com', 'ROLE_USUARIO', '$2a$10$6Chz3j8ktmkaCQxz5M8Mu.GMC3UsfrimWAwkKQVaP0o4f/vJZr3gu');
+INSERT INTO usuario (id, email, perfil, senha) VALUES (2, 'admin@email.com', 'ROLE_ADMIN', '$2a$10$naCb01AGR7czdhM5ECYljemBG005UGa7ZtGaULTrWCoVTNpyZ.re.');
